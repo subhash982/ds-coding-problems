@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Given 2 String write am ethod to check  if one is permutation or others
+ * Given 2 String write a method to check  if one is permutation or others
  */
 public class CheckPermutation {
 

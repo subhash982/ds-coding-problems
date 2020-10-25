@@ -11,11 +11,9 @@ public class ReturnKthElement {
             node = node.getNext();
         }
         LinkedListNode currNode = header;
-        LinkedListNode prevNode = null;
         //Move the kth node to last which figured out n-kth from start
         while (node != null) {
             node = node.getNext();
-            prevNode = currNode;
             currNode = currNode.getNext();
         }
         //Complexity is O(n)

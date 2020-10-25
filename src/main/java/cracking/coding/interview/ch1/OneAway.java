@@ -1,7 +1,8 @@
 package cracking.coding.interview.ch1;
 
 /**
- * There are thress type of edit can be performed on a String replace,delete or insert a character. Write a function the String are one edit away
+ * There are thress type of edit can be performed on a String replace,delete or insert a character.
+ * Write a function the String are one edit away
  */
 public class OneAway {
     private static boolean isOneEditAway(String str1,String str2) {
